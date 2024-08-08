@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import { useTranslation, withTranslation } from 'react-i18next';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function App() {
+import About from "./pages/About";
+import Experience from "./pages/Experience";
+import Project from "./pages/Project";
+import Layout from "./pages/Layout";
+
+function App({ t, i18n }) {
+  /* ตัวอย่างการแปลภาษา */
+  // const { t,i18n } = useTranslation();
+  // function changeLang(langCode){
+  //   i18n.changeLanguage(langCode);
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<About />} />
+          <Route path="experience" element={<Experience />} />
+          <Route path="project" element={<Project />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+export default withTranslation()(App);
