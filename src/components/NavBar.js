@@ -27,7 +27,7 @@ const NavBar = () => {
                 <div className={"nav-menu" + (location.pathname == "/project"? " active": "")} onClick={()=>{goToAboutPage('project')}}>{t('project_menu')}</div>
             </div>
             <div className="nav-i-right">
-                <div className="nav-btn">{t('my_resume')}</div>
+                <div className="nav-btn btn-1">{t('my_resume')}</div>
             </div>
         </div>
     </div>)

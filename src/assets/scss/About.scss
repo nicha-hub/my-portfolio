@@ -1,0 +1,38 @@
+@import 'variables';
+
+.section-1{
+    margin-top: 30px;
+    .section-1-left{
+        width: 50%;
+    }
+    .section-1-right{
+        width: 50%;
+    }
+    .image-showcase{
+        img{
+            width: 100%;
+
+        }
+    }
+}
+
+.head-box{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.under-head-box{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #888;
+}
+
+.sub-box{
+    margin-top: 10px;
+    text-align: center;
+    color: #888;
+}
+
+.botton-box{
+    margin-top: 18px;
+}

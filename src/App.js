@@ -1,4 +1,5 @@
 import './App.css';
+import './assets/scss/common.scss';
 import { useTranslation, withTranslation } from 'react-i18next';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

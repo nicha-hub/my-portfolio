@@ -1,0 +1,35 @@
+@import 'variables';
+.container{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+@media (max-width: 970px) {
+    .container {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+
+.btn-1{
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: $primary-theme-color;
+    color: #fff;
+    cursor: pointer;
+    width: fit-content;
+
+    &:hover{
+        background-color: $secondary-theme-color;
+    }
+}
+
+.d-flex{
+    display: flex;
+}
+.jfc-c{
+    justify-content: center;
+}
+.alt-c{
+    align-items: center;
+}
