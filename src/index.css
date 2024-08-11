@@ -6,8 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #404040;
-  background: rgb(226,45,110);
-  background: radial-gradient(circle, rgba(226,45,110,0.38988095238095233) 0%, rgba(252,70,107,0) 100%);
+  /* background: rgb(226,45,110);
+  background: radial-gradient(circle, rgba(226,45,110,0.38988095238095233) 0%, rgba(252,70,107,0) 100%); */
 }
 
 code {

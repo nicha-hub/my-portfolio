@@ -2,6 +2,9 @@
 .container{
     padding-left: 7%;
     padding-right: 7%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 970px) {
@@ -14,13 +17,14 @@
 .btn-1{
     padding: 10px 20px;
     border-radius: 25px;
-    background-color: $primary-theme-color;
+    background: $gradient-bg1-norm;
+    background: $gradient-bg1-grad;
     color: #fff;
     cursor: pointer;
     width: fit-content;
 
     &:hover{
-        background-color: $secondary-theme-color;
+        background: $blue-theme-color;
     }
 }
 

@@ -1,5 +1,5 @@
 import '../assets/scss/About.scss';
-import imageShowcase from '../assets/images/image-showcase.png';
+import imageShowcase from '../assets/images/136579-3.png';
 import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin,faSquareFacebook,faSquareGithub } from '@fortawesome/free-brands-svg-icons'
@@ -23,7 +23,7 @@ const About = () => {
                     <div className="btn-1">Download My Resume</div>
                 </div>
             </div>
-            <div className="section-1-right">
+            <div className="section-1-right d-flex">
                 <div className="image-showcase">
                     <img src={imageShowcase} />
                 </div>

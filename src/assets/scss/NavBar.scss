@@ -10,6 +10,9 @@
         padding-right: 7%;
         display: flex;
         justify-content: space-between;
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
 
         .nav-i-center{
             display: flex;
@@ -67,7 +70,7 @@
 
 .nav-btn{
     &:hover{
-        background-color: $secondary-theme-color;
+        background-color: $blue-theme-color;
     }
 }
 
