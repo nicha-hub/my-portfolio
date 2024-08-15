@@ -3,8 +3,6 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useLocation } from 'react-router-dom';
 import logoImage from '../assets/images/logo-2.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 // Component
 import '../components/CommonButton';
