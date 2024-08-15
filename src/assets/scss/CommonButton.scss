@@ -1,0 +1,31 @@
+@import 'variables';
+
+.btn{
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 10px 20px;
+    .btn-ic{
+        font-size: 12px;
+        padding-left: 8px;
+    }
+}
+
+.btn-1{
+    background: $gradient-bg1-norm;
+    background: $gradient-bg1-grad;
+    color: #fff;
+    &:hover{
+        background: $blue-theme-color;
+    }
+}
+
+.btn-2{
+    border: 1px solid #888;
+    background: transparent;
+    &:hover{
+        border: 1px solid $blue-theme-color;
+        background: $blue-theme-color;
+        color:#fff;
+    }
+}

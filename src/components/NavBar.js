@@ -3,6 +3,12 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useLocation } from 'react-router-dom';
 import logoImage from '../assets/images/logo-2.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+
+// Component
+import '../components/CommonButton';
+import CommonButton from '../components/CommonButton';
 
 const NavBar = () => {
     const { t } = useTranslation();
@@ -27,7 +33,12 @@ const NavBar = () => {
                 <div className={"nav-menu" + (location.pathname == "/project"? " active": "")} onClick={()=>{goToAboutPage('project')}}>{t('project_menu')}</div>
             </div>
             <div className="nav-i-right">
-                <div className="nav-btn btn-1">{t('my_resume')}</div>
+                <CommonButton
+                    title = {t('my_resume')}
+                    btnMode = {'btn-2'}
+                    arrowRight = {true}
+                    style = {{padding: '7px 20px'}}
+                />
             </div>
         </div>
     </div>)
