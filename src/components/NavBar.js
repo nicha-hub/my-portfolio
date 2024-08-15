@@ -5,7 +5,6 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import logoImage from '../assets/images/logo-2.png';
 
 // Component
-import '../components/CommonButton';
 import CommonButton from '../components/CommonButton';
 
 const NavBar = () => {

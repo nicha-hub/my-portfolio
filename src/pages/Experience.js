@@ -1,5 +1,10 @@
+// Component
+import WaitUpdate from '../components/WaitUpdate';
+
 const Experience = () => {
-    return <h1>Experience</h1>;
-  };
+  return <div className="container">
+    <WaitUpdate/>
+  </div>;
+};
   
-  export default Experience;
+export default Experience;

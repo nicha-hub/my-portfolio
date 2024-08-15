@@ -7,7 +7,6 @@ import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { useNavigate } from 'react-router-dom';
 
 // Component
-import '../components/CommonButton';
 import CommonButton from '../components/CommonButton';
 
 const About = () => {

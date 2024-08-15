@@ -4,5 +4,8 @@
     "experience_menu": "Experience",
     "project_menu": "Project",
     "my_resume": "My Resume",
-    "past_projects": "Past Projects"
+    "past_projects": "Past Projects",
+    "oops": "Oops!",
+    "page_waiting_update": "The page is waiting to be updated.",
+    "back_to_about_me": "Back To About Me"
 }

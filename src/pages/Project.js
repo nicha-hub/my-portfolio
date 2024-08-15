@@ -1,5 +1,10 @@
+// Component
+import WaitUpdate from '../components/WaitUpdate';
+
 const Project = () => {
-    return <h1>Project</h1>;
+    return <div className="container">
+       <WaitUpdate/>
+    </div>;
 };
 
 export default Project;
