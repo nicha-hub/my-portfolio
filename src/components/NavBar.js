@@ -35,6 +35,7 @@ const NavBar = () => {
                     btnMode = {'btn-2'}
                     arrowRight = {true}
                     style = {{padding: '7px 20px'}}
+                    onClick = {()=>{window.open( `${process.env.PUBLIC_URL}/files/resume-nicha.pdf`, "_blank");}}
                 />
             </div>
         </div>
