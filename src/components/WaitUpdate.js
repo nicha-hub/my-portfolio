@@ -12,11 +12,11 @@ const WaitUpdate = () => {
 
     return <div className="container">
         <div style={{marginTop: '50px', marginBottom: '50px'}}>
-            <div className='d-flex alt-c jfc-c' style={{fontSize: '278px', color: '#88888880'}}>
+            <div className='d-flex alt-c jfc-c' style={{fontSize: '250px', color: '#88888880'}}>
                 <FontAwesomeIcon icon={faCogs} />
             </div>
-            <div style={{textAlign: 'center', fontSize: '60px', 'fontWeight': '700'}}>{t('oops')}</div>
-            <div style={{textAlign: 'center', fontSize: '25px', 'fontWeight': '600'}}>{t('page_waiting_update')}</div>
+            <div style={{textAlign: 'center', fontSize: '60px', fontWeight: '700'}}>{t('oops')}</div>
+            <div style={{textAlign: 'center', fontSize: '25px', marginTop: '10px'}}>{t('page_waiting_update')}</div>
             <div className='d-flex alt-c jfc-c' style={{marginTop: '15px'}}>
                 <CommonButton
                     title = {t('back_to_about_me')}
