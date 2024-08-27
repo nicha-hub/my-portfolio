@@ -12,7 +12,11 @@ const Project = () => {
     }, []);
 
     return <div className="container">
-       <WaitUpdate/>
+        <WaitUpdate
+            desc = {t('page_waiting_update_desc',{page: t('page_waiting_update_my_past_projects')})}
+            btnLinkOut = {t('go_to_linkedin')}
+            btnLinkOutOnclick = {()=>{window.open( `https://www.linkedin.com/in/nicha-kaewrod-a2288631a/details/projects/`, "_blank");}}
+        />
     </div>;
 };
 

@@ -148,10 +148,10 @@ const About = () => {
             </div>
         </div>
         <div className="section section-2">
-            <div className='common-header'>My Skills</div>
+            <div className='common-header'>{t('my_skills')}</div>
             <div className='sk-group d-flex'>
                 {skillList.map((item,i)=>{
-                    return <div className='sk-box'>
+                    return <div key={i} className='sk-box'>
                         <div className='sk-clip'><FontAwesomeIcon icon={faPaperclip} /></div>
                         <div className='sk-ic' style={item.st || {}}>
                             <img src={item.ic} />

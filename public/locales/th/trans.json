@@ -10,5 +10,10 @@
     "back_to_about_me": "ไปหน้าเกี่ยวกับฉัน",
     "intro_about_me": "ยินดีต้อนรับสู่เว็บไซต์นะคะ! รู้สึกเป็นเกียรติมากค่ะที่สละเวลาเข้ามาเยี่ยมชม ฉันชื่อ ณิชา แก้วรอด มีประสบการณ์ 4 ปี 10 เดือนในการเป็น Full-Stack Developer มีความเชี่ยวชาญใน PHP, Node.js, JavaScript, HTML, CSS, และ MySQL สำหรับการพัฒนาเว็บแอปพลิเคชัน ในส่วนของการพัฒนาโมบายแอปพลิเคชันจะใช้ React Native และ Flutter เป็นคนยืดหยุ่นและไม่ยึดติดกับภาษา พร้อมเรียนรู้สิ่งใหม่ ๆ เสมอค่ะ",
     "greeting_intro": "สวัสดีค่ะ ณิชาเองค่ะ",
-    "phrase_intro": "คนจะเหนือคนได้ ต้องพยายามมากกว่าคนทั่วไป"
+    "phrase_intro": "คนจะเหนือคนได้ ต้องพยายามมากกว่าคนทั่วไป",
+    "page_waiting_update_desc": "คุณสามารถดู{{page}}ได้ที่ LinkedIn",
+    "page_waiting_update_my_experiences" : "ประสบการณ์ของฉัน",
+    "page_waiting_update_my_past_projects" : "โปรเจคที่ฉันเคยเข้าร่วม",
+    "go_to_linkedin" : "ไปที่ LinkedIn",
+    "my_skills": "ทักษะของฉัน"
 }
